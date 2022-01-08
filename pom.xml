@@ -16,7 +16,7 @@
     </parent>
     <groupId>guru.springframework</groupId>
     <artifactId>aa-pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>aa-pet-clinic</name>
     <description>aa-pet-clinic</description>
     <properties>
@@ -47,7 +47,7 @@
     <!-- ON mvn prepare:release and on success mvn release:perform to add release tag in git - uses this scm -->
     <scm>
         <developerConnection>scm:git:git@github.com:arpitagarwal78/aa-pet-clinic.git</developerConnection>
-      <tag>aa-pet-clinic-0.0.2</tag>
+      <tag>aa-pet-clinic-0.0.1</tag>
   </scm>
 
 </project>
