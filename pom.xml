@@ -24,17 +24,30 @@
         <java.version>11</java.version>
     </properties>
 
-    <dependencies>
-
-    </dependencies>
-
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
+            <!-- Maven release plugin -->
+            <!-- maven-release-plugin - it will run till install lifecycle [default is till deploy] -->
+            <!-- autoVersionSubmodules - submodule have same version -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
+
+    <!-- ON mvn prepare:release and on success mvn release:perform to add release tag in git - uses this scm -->
+    <scm>
+        <developerConnection>scm:git:git@github.com:arpitagarwal78/aa-pet-clinic.git</developerConnection>
+    </scm>
 
 </project>
