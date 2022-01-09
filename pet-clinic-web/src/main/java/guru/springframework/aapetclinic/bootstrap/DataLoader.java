@@ -4,8 +4,6 @@ import guru.springframework.aapetclinic.model.Owner;
 import guru.springframework.aapetclinic.model.Vet;
 import guru.springframework.aapetclinic.services.OwnerService;
 import guru.springframework.aapetclinic.services.VetService;
-import guru.springframework.aapetclinic.services.map.OwnerServiceMap;
-import guru.springframework.aapetclinic.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -17,10 +15,10 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
 
 
-    public DataLoader(){
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
-
+    // owner service map and vet service map will be autowired automatically
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     // when Spring boot context is build, Spring boot will call this method
