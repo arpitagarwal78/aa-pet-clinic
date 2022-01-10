@@ -1,4 +1,6 @@
 guru\springframework\aapetclinic\services\CrudService.class
+guru\springframework\aapetclinic\model\Visit.class
+guru\springframework\aapetclinic\services\map\PetTypeServiceMap.class
 guru\springframework\aapetclinic\services\VetService.class
 guru\springframework\aapetclinic\model\Vet.class
 guru\springframework\aapetclinic\services\map\PetServiceMap.class
@@ -7,8 +9,12 @@ guru\springframework\aapetclinic\services\PetService.class
 guru\springframework\aapetclinic\services\map\AbstractMapService.class
 guru\springframework\aapetclinic\model\BaseEntity.class
 guru\springframework\aapetclinic\model\Owner.class
+guru\springframework\aapetclinic\services\map\SpecialitiesServiceMap.class
 guru\springframework\aapetclinic\services\map\OwnerServiceMap.class
 guru\springframework\aapetclinic\services\OwnerService.class
 guru\springframework\aapetclinic\model\Pet.class
+guru\springframework\aapetclinic\model\Speciality.class
 guru\springframework\aapetclinic\model\PetType.class
+guru\springframework\aapetclinic\services\PetTypeService.class
 guru\springframework\aapetclinic\model\Person.class
+guru\springframework\aapetclinic\services\SpecialityService.class
