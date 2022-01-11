@@ -1,12 +1,24 @@
 package guru.springframework.aapetclinic.model;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity // JPA Entity
+@Table(name = "pet")
 public class Pet extends BaseEntity{
 
+    @Column(name = "name")
     private String name;
+
+    @ManyToOne
+    @JoinColumn(name = "type_id")
     private PetType petType;
+
+    @ManyToOne
+    @JoinColumn(name = "owner_id") // we will be having owner_id at pet table to map this owner
     private Owner owner;
+
+    @Column(name = "birth_date")
     private LocalDate birthDate;
 
 
