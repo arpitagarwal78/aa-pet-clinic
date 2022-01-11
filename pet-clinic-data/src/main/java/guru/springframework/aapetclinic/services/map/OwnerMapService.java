@@ -5,11 +5,13 @@ import guru.springframework.aapetclinic.model.Pet;
 import guru.springframework.aapetclinic.services.OwnerService;
 import guru.springframework.aapetclinic.services.PetService;
 import guru.springframework.aapetclinic.services.PetTypeService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class OwnerMapService extends AbstractMapService<Owner, Long>
         implements OwnerService {
 
