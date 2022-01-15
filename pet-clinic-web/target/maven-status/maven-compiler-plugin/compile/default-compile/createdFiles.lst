@@ -1,5 +1,7 @@
+guru\springframework\aapetclinic\controllers\PetController.class
 guru\springframework\aapetclinic\controllers\VetController.class
 guru\springframework\aapetclinic\bootstrap\DataLoader.class
 guru\springframework\aapetclinic\controllers\IndexController.class
 guru\springframework\aapetclinic\AaPetClinicApplication.class
 guru\springframework\aapetclinic\controllers\OwnerController.class
+guru\springframework\aapetclinic\formatters\PetTypeFormatter.class

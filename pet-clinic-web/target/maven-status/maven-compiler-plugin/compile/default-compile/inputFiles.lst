@@ -1,5 +1,7 @@
 E:\Spring Course Two\My Git\aa-pet-clinic\pet-clinic-web\src\main\java\guru\springframework\aapetclinic\AaPetClinicApplication.java
 E:\Spring Course Two\My Git\aa-pet-clinic\pet-clinic-web\src\main\java\guru\springframework\aapetclinic\bootstrap\DataLoader.java
 E:\Spring Course Two\My Git\aa-pet-clinic\pet-clinic-web\src\main\java\guru\springframework\aapetclinic\controllers\IndexController.java
+E:\Spring Course Two\My Git\aa-pet-clinic\pet-clinic-web\src\main\java\guru\springframework\aapetclinic\formatters\PetTypeFormatter.java
 E:\Spring Course Two\My Git\aa-pet-clinic\pet-clinic-web\src\main\java\guru\springframework\aapetclinic\controllers\OwnerController.java
+E:\Spring Course Two\My Git\aa-pet-clinic\pet-clinic-web\src\main\java\guru\springframework\aapetclinic\controllers\PetController.java
 E:\Spring Course Two\My Git\aa-pet-clinic\pet-clinic-web\src\main\java\guru\springframework\aapetclinic\controllers\VetController.java
