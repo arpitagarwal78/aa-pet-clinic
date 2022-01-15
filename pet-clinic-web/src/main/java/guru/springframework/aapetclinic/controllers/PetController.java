@@ -34,7 +34,8 @@ public class PetController {
     }
 
     // model attributes get auto bind by the parameter if passed in any controller method
-    // that type of object
+    // that type of object, and you can include that object directly in request mapping method
+    // rather than again and again passing
     @ModelAttribute("types")
     public Collection<PetType> populatePetTypes() {
         return petTypeService.findAll();
